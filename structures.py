@@ -1,16 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[4]:
+# In[ ]:
 
-
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-
-"""Module documentation goes here
-   and here
-   and ...
-"""
 
 class Node:
 
@@ -63,6 +55,8 @@ class Node:
         # mainly used for clairty when testing
         return "<Node {}>".format(self.state)
     
+    
+    
 class Problem():
     
     # defines the problem to be solved
@@ -93,11 +87,13 @@ class Problem():
         
             return state == self.goal
 
+        
+        
 class Graph:
     
     # converts a dictionary into a graph for searching
     
-    def __init__(self, data, directed):
+    def __init__(self, data, directed=True):
         
         # constructor
         
@@ -136,10 +132,4 @@ class Graph:
        # s2 = set([k2 for v in self.data.values() for k2, v2 in v.items()])
        # nodes = s1.union(s2)
         return self.data.keys()
-
-
-# In[ ]:
-
-
-
 

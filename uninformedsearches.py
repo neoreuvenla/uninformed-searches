@@ -1,13 +1,15 @@
 #!/usr/bin/env python
 # coding: utf-8
 
-# In[1]:
+# In[36]:
 
 
 import structures
 from collections import deque
 
-import structures
+
+# In[37]:
+
 
 def breadth_first_graph_search(problem):
     """[Figure 3.11]
@@ -79,7 +81,7 @@ def iterative_deepening_search(problem):
     """[Figure 3.18]"""
     
     # sets a sensible maximum limit linked to graph size
-    limit = int(len(user_problem.graph.nodes())*.75) ##################
+    limit = int(len(problem.graph.nodes())*.75)
     
     for depth in range(limit):
         result = depth_limited_search(problem, depth)

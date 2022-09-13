@@ -1,13 +1,1 @@
-{"Arad":{"Zerind":75, "Sibiu":140, "Timisoara":118},
-    "Bucharest":{"Urziceni":85, "Pitesti":101, "Giurgiu":90, "Fagaras":211},
-    "Craiova":{"Drobeta":120, "Rimnicu":146, "Pitesti":138},
-    "Drobeta":{"Mehadia":75},
-    "Eforie":{"Hirsova":86},
-    "Fagaras":{"Sibiu":99},
-    "Hirsova":{"Urziceni":98},
-    "Iasi":{"Vaslui":92, "Neamt":87},
-    "Lugoj":{"Timisoara":111, "Mehadia":70},
-    "Oradea":{"Zerind":71, "Sibiu":151},
-    "Pitesti":{"Rimnicu":97},
-    "Rimnicu":{"Sibiu":80},
-    "Urziceni":{"Vaslui":142}}
+{"Arad": {"Sibiu": 0, "Timisoara": 0, "Zerind": 0}, "Bucharest": {"Fagaras": 0, "Giurgiu": 0, "Pitesti": 0, "Urziceni": 0}, "Craiova": {"Drobeta": 0, "Pitesti": 0, "Rimnicu": 0}, "Drobeta": {"Craiova": 0, "Mehadia": 0}, "Eforie": {"Hirsova": 0}, "Fagaras": {"Bucharest": 0, "Sibiu": 0}, "Giurgiu": {"Bucharest": 0}, "Hirsova": {"Eforie": 0, "Urziceni": 0}, "Iasi": {"Neamt": 0, "Vaslui": 0}, "Lugoj": {"Mehadia": 0, "Timisoara": 0}, "Mehadia": {"Drobeta": 0, "Lugoj": 0}, "Neamt": {"Iasi": 0}, "Oradea": {"Sibiu": 0, "Zerind": 0}, "Pitesti": {"Bucharest": 0, "Craiova": 0, "Rimnicu": 0}, "Rimnicu": {"Craiova": 0, "Pitesti": 0, "Sibiu": 0}, "Sibiu": {"Arad": 0, "Fagaras": 0, "Oradea": 0, "Rimnicu": 0}, "Timisoara": {"Arad": 0, "Lugoj": 0}, "Urziceni": {"Bucharest": 0, "Hirsova": 0, "Vaslui": 0}, "Vaslui": {"Iasi": 0, "Urziceni": 0}, "Zerind": {"Arad": 0, "Oradea": 0}}
